@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(61, 171, 61);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.header{
+    border-bottom: 5px solid white;
+    height: 200px;
+}
+.again{
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+.between{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 105px;
+}
+.guess{
+    color: white;
+    text-align: center;
+    font-size: 45px;    
+    position: relative;
+    right: 50px;
+}
+.number{
+    font-size: 50px;
+    background-color: white;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    left: 45%;
+    top: 125px;
+}
+.section{
+    margin-top: 180px;
+}
+.num{
+    /* background-color: green; */
+    /* border: 2px solid white; */
+    width: 140px;
+    height: 60px;
+    margin-left: 200px;
+    /* color: white; */
+    font-size: 2em;
+}
+.check{
+    position: relative;
+    right: 140px;
+    top: 60px;
+    cursor: pointer;
+}
+.start{
+    color: white;
+    position: relative;
+    left: 65%;
+    bottom: 100px;
+}
+.texthscore{
+    color: white;
+    position: relative;
+    left: 65%;
+    top: -60px;
+}
+.textscore{
+    color: white;
+    position: relative;
+    left: 65%;
+    top: -50px;
+
+}
